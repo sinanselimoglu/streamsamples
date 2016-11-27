@@ -1,8 +1,12 @@
 package entity;
 
+import java.util.List;
+
 public class Personnel {
 
     private String name;
+
+    private List<Address> addressList;
 
     private int age;
 
@@ -28,4 +32,11 @@ public class Personnel {
     }
 
 
+    public List<Address> getAddressList() {
+        return addressList;
+    }
+
+    public void setAddressList(List<Address> addressList) {
+        this.addressList = addressList;
+    }
 }
